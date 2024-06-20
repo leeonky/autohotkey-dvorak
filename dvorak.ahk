@@ -1,4 +1,5 @@
-; Remap alphabet keys to Dvorak layout
+
+; QWERTY to Dvorak Letter Mappings
 q::'
 w::,
 e::.
@@ -9,6 +10,25 @@ u::g
 i::c
 o::r
 p::l
+[::/
+]::=
+
+; QWERTY to Dvorak Number Row Mappings
+1::1  ; 数字不变，但符号会变
+2::2
+3::3
+4::4
+5::5
+6::6
+7::7
+8::8
+9::9
+0::0
+`::`
+-::[
+=::]
+
+; QWERTY to Dvorak Lower Row Mappings
 a::a
 s::o
 d::e
@@ -20,6 +40,9 @@ k::t
 l::n
 SC027::s
 '::-
+\::[
+
+; QWERTY to Dvorak Bottom Row Mappings
 z::;
 x::q
 c::j
